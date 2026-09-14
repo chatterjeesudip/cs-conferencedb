@@ -12,18 +12,18 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title">Data Tables</h1>
+  <h1 class="site-title">Computer Science Conferences</h1>
 </header>
 
 <main>
 
   <!-- Tab controls -->
   <div class="tabs" role="tablist" aria-label="Table categories">
-    <button class="tab" role="tab" id="tab-btn-1" aria-controls="tab-1" aria-selected="true" data-tab="1">Tab 1</button>
-    <button class="tab" role="tab" id="tab-btn-2" aria-controls="tab-2" aria-selected="false" tabindex="-1" data-tab="2">Tab 2</button>
-    <button class="tab" role="tab" id="tab-btn-3" aria-controls="tab-3" aria-selected="false" tabindex="-1" data-tab="3">Tab 3</button>
-    <button class="tab" role="tab" id="tab-btn-4" aria-controls="tab-4" aria-selected="false" tabindex="-1" data-tab="4">Tab 4</button>
-    <button class="tab" role="tab" id="tab-btn-5" aria-controls="tab-5" aria-selected="false" tabindex="-1" data-tab="5">Tab 5</button>
+    <button class="tab" role="tab" id="tab-btn-1" aria-controls="tab-1" aria-selected="true" data-tab="1">Database</button>
+    <button class="tab" role="tab" id="tab-btn-2" aria-controls="tab-2" aria-selected="false" tabindex="-1" data-tab="2">AI/ML</button>
+    <button class="tab" role="tab" id="tab-btn-3" aria-controls="tab-3" aria-selected="false" tabindex="-1" data-tab="3">NLP</button>
+    <button class="tab" role="tab" id="tab-btn-4" aria-controls="tab-4" aria-selected="false" tabindex="-1" data-tab="4">Compiler</button>
+    <button class="tab" role="tab" id="tab-btn-5" aria-controls="tab-5" aria-selected="false" tabindex="-1" data-tab="5">Software Engineering</button>
   </div>
 
   <!-- Tab panels -->
@@ -36,33 +36,57 @@
       <table>
         <thead>
           <tr>
-            <th>H1</th><th>H2</th><th>H3</th><th>H4</th><th>H5</th><th>H6</th>
+            <th>Conference</th><th>Abstract Date</th><th>Final Submission</th><th>Notification</th><th>Location</th><th>Core Conference Rank</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td data-label="H1">Row 1</td>
-            <td data-label="H2">—</td>
-            <td data-label="H3">—</td>
-            <td data-label="H4">—</td>
-            <td data-label="H5">—</td>
-            <td data-label="H6">—</td>
+            <td data-label="H1">SIGMOD 2027</td>
+            <td data-label="H2"><span style="color: red;">Jan 10, 2026</span> <br> <span style="color: red;">Apr 10, 2026</span> <br> <span style="color: red;">Jul 10, 2026</span> <br> <span style="color: greenyellow;">Oct 10, 2026</span></td>
+            <td data-label="H3"><span style="color: red;">Jan 17, 2026</span> <br> <span style="color: red;">Apr 17, 2026</span> <br> <span style="color: red;">Jul 17, 2026</span> <br> <span style="color: greenyellow;">Oct 17, 2026</span></td>
+            <td data-label="H4">Jun 12, 2026 <br> Sep 12, 2026 <br> Dec 12, 2026 <br>  Mar 12, 2027</td>
+            <td data-label="H5">CA, USA</td>
+            <td data-label="H6">A*</td>
           </tr>
           <tr>
-            <td data-label="H1">Row 2</td>
-            <td data-label="H2">—</td>
-            <td data-label="H3">—</td>
-            <td data-label="H4">—</td>
-            <td data-label="H5">—</td>
-            <td data-label="H6">—</td>
+            <td data-label="H1">VLDB 2027</td>
+            <td data-label="H2">25th of the previous month</td>
+            <td data-label="H3">1st of every month until Mar 2027</td>
+            <td data-label="H4">15th of the next monthfollowing the deadline</td>
+            <td data-label="H5">Athens, Greece</td>
+            <td data-label="H6">A*</td>
           </tr>
           <tr>
-            <td data-label="H1">Row 3</td>
-            <td data-label="H2">—</td>
-            <td data-label="H3">—</td>
-            <td data-label="H4">—</td>
-            <td data-label="H5">—</td>
-            <td data-label="H6">—</td>
+            <td data-label="H1">ICDE 2027</td>
+            <td data-label="H2"><span style="color: red;">Jun 11,2026</span> <br> <span style="color: greenyellow;">Nov 11, 2026</span></td>
+            <td data-label="H3"><span style="color: red;">Jun 11,2026</span> <br> <span style="color: greenyellow;">Nov 11, 2026</span></td>
+            <td data-label="H4">Sep 10,2026 <br> Feb 10, 2027</td>
+            <td data-label="H5">Copenhagen, Denmark</td>
+            <td data-label="H6">A*</td>
+          </tr>
+          <tr>
+            <td data-label="H1">PODS 2027</td>
+            <td data-label="H2"><span style="color: red;">May 23,2026</span> <br> <span style="color: greenyellow;">Dec 03, 2026</span></td>
+            <td data-label="H3"><span style="color: red;">May 30,2026</span> <br> <span style="color: greenyellow;">Dec 10, 2026</span></td>
+            <td data-label="H4">Sep 01,2026 <br> Mar 01, 2027</td>
+            <td data-label="H5">CA, USA</td>
+            <td data-label="H6">A*</td>
+          </tr>
+          <!-- <tr>
+            <td data-label="H1">ICDT 2027</td>
+            <td data-label="H2"><span style="color: red;">Jun 11,2026</span> <br> <span style="color: greenyellow;">Nov 11, 2026</span></td>
+            <td data-label="H3"><span style="color: red;">Jun 11,2026</span> <br> <span style="color: greenyellow;">Nov 11, 2026</span></td>
+            <td data-label="H4">Sep 10,2026 <br> Feb 10, 2027</td>
+            <td data-label="H5">Copenhagen, Denmark</td>
+            <td data-label="H6">A*</td>
+          </tr> -->
+          <tr>
+            <td data-label="H1">EDBT 2027</td>
+            <td data-label="H2"><span style="color: red;">Feb 04, 2026</span> <br> <span style="color: red;">Jun 10, 2026</span> <br> <span style="color: greenyellow;">Oct 07, 2026</span></td>
+            <td data-label="H3"><span style="color: red;">Feb 04, 2026</span> <br> <span style="color: red;">Jun 10, 2026</span> <br> <span style="color: greenyellow;">Oct 07, 2026</span></td>
+            <td data-label="H4">May 27, 2026 <br> Sep 30, 2026 <br> Jan 27, 2027 </td>
+            <td data-label="H5">Lille, France</td>
+            <td data-label="H6">B</td>
           </tr>
         </tbody>
       </table>
@@ -74,7 +98,7 @@
       <table>
         <thead>
           <tr>
-            <th>H1</th><th>H2</th><th>H3</th><th>H4</th><th>H5</th><th>H6</th>
+            <th>Conference</th><th>Abstract Date</th><th>Final Submission</th><th>Notification</th><th>Location</th><th>Core Conference Rank</th>
           </tr>
         </thead>
         <tbody>
@@ -104,7 +128,7 @@
       <table>
         <thead>
           <tr>
-            <th>H1</th><th>H2</th><th>H3</th><th>H4</th><th>H5</th><th>H6</th>
+            <th>Conference</th><th>Abstract Date</th><th>Final Submission</th><th>Notification</th><th>Location</th><th>Core Conference Rank</th>
           </tr>
         </thead>
         <tbody>
@@ -134,7 +158,7 @@
       <table>
         <thead>
           <tr>
-            <th>H1</th><th>H2</th><th>H3</th><th>H4</th><th>H5</th><th>H6</th>
+            <th>Conference</th><th>Abstract Date</th><th>Final Submission</th><th>Notification</th><th>Location</th><th>Core Conference Rank</th>
           </tr>
         </thead>
         <tbody>
@@ -164,7 +188,7 @@
       <table>
         <thead>
           <tr>
-            <th>H1</th><th>H2</th><th>H3</th><th>H4</th><th>H5</th><th>H6</th>
+            <th>Conference</th><th>Abstract Date</th><th>Final Submission</th><th>Notification</th><th>Location</th><th>Core Conference Rank</th>
           </tr>
         </thead>
         <tbody>
